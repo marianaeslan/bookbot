@@ -8,3 +8,10 @@ def main(book_name):
     file_contents = read_book(book_name)
     print(file_contents)
 
+def count_words(book_name):
+    # count how many words have in the book
+    file_contents = read_book(book_name)
+    total = 0
+    for word in file_contents.split():
+        total+=1
+    return total
