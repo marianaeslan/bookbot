@@ -16,7 +16,23 @@ def count_words(book_name):
         total+=1
     return total
 
+def count_char(book_name):
+    # count how many times a character appears in the string
+    file_contents = read_book(book_name)
+    # converting to lower case to avoid duplicates
+    lower_case = file_contents.lower()
+    characters = {}
+    for char in lower_case:
+        if char in characters:
+            characters[char] +=1
+        else: 
+            characters[char] = 1
+    return characters
+
 main("frankenstein.txt")
 
 total_words = count_words("frankenstein.txt")
-print(total_words)
+print("Total words: ", total_words)
+
+character_count = count_char("frankenstein.txt")
+print("Character counts: ", character_count)
