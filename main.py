@@ -15,3 +15,8 @@ def count_words(book_name):
     for word in file_contents.split():
         total+=1
     return total
+
+main("frankenstein.txt")
+
+total_words = count_words("frankenstein.txt")
+print(total_words)
