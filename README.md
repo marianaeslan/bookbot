@@ -1,22 +1,24 @@
-# 📖 BookBot  
+# 📚 BookBot  
 
-Um bot simples para análise de textos que conta palavras e letras em um livro, gerando estatísticas interessantes.  
+**BookBot** is an automated book processing tool that helps users **analyze text files**, count word frequencies, and extract useful insights from books.  
 
-## 🚀 Funcionalidades  
-- 📚 Conta o número total de palavras no livro  
-- 🔠 Analisa a frequência de cada letra  
-- 📊 Exibe estatísticas de forma organizada  
+## 🚀 Features  
+✅ **Reads and processes text files** (.txt format).  
+✅ **Counts the total number of words** in a book.  
+✅ **Analyzes character frequency** to determine letter distribution.  
+✅ **Generates a structured report** summarizing the book's contents.  
 
-## 📦 Tecnologias Utilizadas  
-- **Python**  
+## 🛠️ Technologies Used  
+The project was built using:  
+- **Python** - Core programming language for processing text.  
 
-## 📥 Como Instalar e Rodar  
-1. **Clone o repositório**  
+## 🎯 How to Use  
+1. **Clone the repository**  
    ```bash
    git clone https://github.com/marianaeslan/bookbot.git
-2. **Navegue até o diretório do projeto**
+2.	**Navigate to the project folder**
     ```bash
     cd bookbot
-3. **Execute o script**
+3. **Run the script**
     ```bash
     python main.py
